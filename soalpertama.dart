@@ -20,8 +20,7 @@ void main() {
       scoresKoala.reduce((a, b) => a + b) / scoresKoala.length;
 
   // Cetak skor rata-rata masing-masing tim
-  print(
-      'Skor rata-rata Tim Lumba-lumba: ${averageScoreLumbaLumba.toStringAsFixed(2)}');
+  print('Skor rata-rata Tim Lumba-lumba: ${averageScoreLumbaLumba.toStringAsFixed(2)}');
   print('Skor rata-rata Tim Koala: ${averageScoreKoala.toStringAsFixed(2)}');
 
   // Mengecek skor minimum
